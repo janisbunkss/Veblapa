@@ -74,3 +74,17 @@ button {
     font-family: var(--font);
     min-width: 160px;
 }
+
+#poga {
+    font-weight: 600;
+    }
+
+#poga:hover {
+    font-style: italic;
+    color: brown;
+}
+
+#pasts {
+    display: none;
+    /* position: absolute;  */
+}  
