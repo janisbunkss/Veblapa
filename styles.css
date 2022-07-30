@@ -1,4 +1,5 @@
 :root {
+    /* ff font-family */
     --superhero: 'Bangers', cursive;
     --fantasy: 'MedievalSharp', cursive;
     --space: 'Orbitron', sans-serif;
@@ -12,13 +13,15 @@
     --monsieur: 'Monsieur La Doulaise', cursive;
     --roboto: 'Roboto', sans-serif;
    
+    /* br border-radius */
     --sharp: 0;
     --soft: 10px;
     --round: 100px;
     
     --image: var(--soft);
     
-    --navigation-background: red;
+    /* bg background-color */
+    --navigation: red;
     --background: #f0f0c6;
     --background-grey:#e2e2e2;
     --text: #222222;
@@ -47,7 +50,7 @@ body {
     background: var(--background);
     margin-inline:  auto;
     padding: 1rem;
-    border-bottom: solid 1rem red;
+    border-bottom: solid 1rem var(--navigation);
 }
 
 .nav {
@@ -56,7 +59,7 @@ body {
     min-width: 160px;
     margin-inline: auto;
     padding: 1rem;
-    background: var(--navigation-background);
+    background: var(--navigation);
 }
 
 .header {
@@ -72,7 +75,7 @@ img {
     text-align: center;
     width: 100%;
     max-width: 300px;
-    border-radius: calc(var(--image) * 2);
+    border-radius: calc(var(--image) * 2); /* 10px*2 */
     border: 4px solid var(--text);
 }
 
