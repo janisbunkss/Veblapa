@@ -7,8 +7,11 @@
     --scary: 'Creepster', cursive;
     --cowboy: 'Rye', cursive;
     --regular: sans-serif;
-    --fantasy: 'MedievalSharp', cursive;
-    --font: var(--regular);
+
+    --happy: 'Happy Monkey', cursive;
+    --monsieur: 'Monsieur La Doulaise', cursive;
+    --roboto: 'Roboto', sans-serif;
+   
     --sharp: 0;
     --soft: 10px;
     --round: 100px;
@@ -17,6 +20,7 @@
     
     --navigation-background: red;
     --background: #f0f0c6;
+    --background-grey:#e2e2e2;
     --text: #222222;
     
     --light: var(--background);
@@ -30,9 +34,9 @@ body {
     padding: 10px;
     
     color: var(--text);
-    font-family: var(--font);
+    font-family: var(--roboto);
 }
-
+    
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
