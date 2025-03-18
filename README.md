@@ -14,3 +14,6 @@ Darbības, lai vsccode veiktu izmaiņas:
     Message: ieraksta, kas mainīts
     ˅ commit
     sinc changes
+
+# Lapas adrese
+    https://janisbunkss.github.io/Veblapa/
