@@ -50,6 +50,7 @@ body {
     
     gap: 2rem;
     width: 80%;
+    text-align: center;
     
     background: var(--background);
     margin-inline:  auto;
@@ -57,21 +58,22 @@ body {
     border-bottom: solid 1rem var(--navigation);
 }
 
-.nav {
-    height: 50px;
+header {
+    /* height: 50px; */
     width: 80%;
     min-width: 160px;
     margin-inline: auto;
-    padding: 1rem;
+    padding: 1rem; 
     background: var(--navigation);
-}
-
-.header {
     text-align: center;
 }
 
 .intro {
     margin: 3rem auto 0;
+}
+
+ul {
+ text-align: left;
 }
 
 img {
