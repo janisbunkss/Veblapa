@@ -159,5 +159,7 @@ form {
         margin: 0 auto 1rem;        
     }
 
-
+    img {
+        max-width: 250px;
+    }
 }
