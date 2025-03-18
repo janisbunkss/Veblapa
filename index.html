@@ -10,55 +10,67 @@
         <title>Ģimenes lapa</title>
     </head>
     <body >
-        
-        <div class="nav">
+        <header class="nav">
+            <h1>Sveiks!</h1>            
+        </header>
+
+        <main class="container">
             
-        </div>
-
-        <div class="container">
-
-            <div class="header">
-                <h1>Sveiks! </h1>
-                <img id="galleryImage" src="images/image_1.jpeg" alt="Attēls" width="500">
+            <section class="sveiks">
                 <h2>Šī ir mūsu ģimenes lapa.</h2>
-            </div>
+                <img id="galleryImage" src="images/image_1.jpeg" alt="Attēls" width="500">
+                
+            </section>
 
-            <div class="intro">
+            <section class="intro">
                 <h3>Nedaudz par mums:</h3>
                 <ul>
                     <li>kopā esam kopš 1974.gada</li>
                     <li>mums ir četri bērni un septiņi mazbērni</li>
                     <li>esam profesionāli pensionāri</li>
                 </ul>
+
+                <h3>Mūsu hobiji:</h3>
+                <ul>
+                    <li>dejojam SDK "Ozolnieki"</li>
+                    <li>ceļojam pa Latviju un tālākām zemēm</li>
+                    <li>labprāt nūjojam, arī paskrienam un braucam ar riteni</li>
+                </ul>
                 
-                <p>Ja vēlies redzēt citus attēlus, uzspied pogu "Nākamais"</p>
-                <button onclick="nextImage()">Nākamais</button>
+                <p>Ja vēlies redzēt vairāk attēlu, uzspied pogu:</p>
+                <button onclick="nextImage()">Nākamais attēls</button>
             
                 <!-- <p>Lai nosūtītu ziņu uzklikšķiniet uz: <a id="poga" >janisbunkss@gmail.com</a></p> -->
-                
-                <div id="pasts">
-                    <form action="https://formsubmit.co/janisbunkss@gmail.com" method="POST">
-                        
-                    <!-- <form name="contact" method="POST" data-netlify="true">                   -->
-                        
-                        <label for="zinojums"><h3>Nosūtiet mums ziņu:</h3></label>
-                        <textarea id="zinojums" name="zinojums" rows="4" cols="50" style="padding-left: 0.6rem"></textarea>  
-                        <!-- <label for="email">Jūsu e-pasta adrese:</label>  -->
-                        <input type="email" name="email" required style="padding-left: 0.6rem" placeholder="jūsu e-pasta adrese">
-                        
-                        <button type="submit" style="width: 10rem">Sūtīt</button>
-                        <button type="reset" style="width: 10rem">Notīrīt</button>
-                    </form>
-                </div>
-
-
-
-            </div>       
-        </div>
-
-        <div class="footer">
+            </section>
             
-        </div>
+            <section class="plani">
+                <h2>Vasaras plāni</h2>
+                <img id="porto" src="porto/Portuguese-Camino-route-map.jpg" alt="Karte" width="500">
+                <p>Šogad plānā Portugāle, lai no Porto dotos Uz Santjago de Compostelu.</p>                     
+                <p>Plašāka informācija par iespējamo ceļu<a href="https://stingynomads.com/camino-portugues-stages/"> šeit:</a></p>
+                
+            </section>
+            
+            
+            <section id="pasts">
+                <form action="https://formsubmit.co/janisbunkss@gmail.com" method="POST">
+                    
+                <!-- <form name="contact" method="POST" data-netlify="true">                   -->
+                    
+                    <label for="zinojums"><h2>Nosūtiet mums ziņu:</h2></label>
+                    <textarea id="zinojums" name="zinojums" rows="4" cols="50" style="padding-left: 0.6rem"></textarea>  
+                    <!-- <label for="email">Jūsu e-pasta adrese:</label>  -->
+                    <input type="email" name="email" required style="padding-left: 0.6rem" placeholder="jūsu e-pasta adrese">
+                    
+                    <button type="submit" style="width: 10rem">Sūtīt</button>
+                    <button type="reset" style="width: 10rem">Notīrīt</button>
+                </form>
+            </section>
+
+        </main>       
+        
+        <footer class="footer">            
+        </footer>
         
         <script src="main.js" ></script>
 
