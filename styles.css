@@ -58,7 +58,7 @@ body {
 }
 
 .nav {
-    height: 80px;
+    height: 50px;
     width: 80%;
     min-width: 160px;
     margin-inline: auto;
@@ -140,7 +140,11 @@ form {
     gap: 0.5rem;
 } 
 
-
+.footer {
+    text-align: center;
+    margin-top: 1rem;
+    background: var(--navigation);
+}
 
 @media (max-width: 900px) {
     .container {    
